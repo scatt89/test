@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="app">
+
+<table ng-controller="QueryController as qc">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Time</th>
+        <th>Container name</th>
+        <th>Log Level</th>
+        <th>Process id</th>
+        <th>Thread name</th>
+        <th>Class</th>
+        <th>Message</th>
+        <!-- <th>Log</th> -->
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="hit in qc.hits">
+        <td ng-bind="$index+1"></td>
+        <td ng-bind="hit['_source']['@timestamp']"></td>
+        <td ng-bind="hit._source.container_name"></td>
+        <td ng-bind="hit._source.log_level"></td>
+        <td ng-bind="hit._source.process_id"></td>
+        <td ng-bind="hit._source.thread_name"></td>
+        <td ng-bind="hit._source.class"></td>
+        <td ng-bind="hit._source.message"></td>
+        <!-- <td>{{hit._source.log}}</td> -->
+    </tr>
+    </tbody>
+
+</table>
+
+</body>
+</html>

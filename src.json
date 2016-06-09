@@ -1,0 +1,2597 @@
+{
+  "took" : 288,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 287,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1k",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806048Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1m",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806061Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1r",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806093Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.646243Z 0 [Note] InnoDB: Shutdown completed; log sequence number 12127644"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw11",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652223Z 0 [Note] Shutting down plugin 'MRG_MYISAM'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw13",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652243Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqG7zehVmGQaw19",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2E",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356339Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2H",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.357299Z 0 [Note] InnoDB: Number of pools: 1"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2P",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.576760Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2W",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.605469Z 0 [Note] Server hostname (bind-address): '*'; port: 3306"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2Y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.605559Z 0 [Note]   - '::' resolves to '::';"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2Z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.605615Z 0 [Note] Server socket created on IP: '::'."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2f",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.657068Z 0 [Note] mysqld: ready for connections."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2h",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:31.500  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fcd40c25] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2j",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:31.668  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqJ7zehVmGQaw2o",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:35.232  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqJ7zehVmGQaw2p",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:35.233  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 15702 ms"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0J",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:14.765605Z 1 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0K",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:14.765710Z 1 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0Q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143819Z 0 [Note] InnoDB: Uses event mutexes"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV87zehVmGQaw0n",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.594269Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0r",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0u",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  '  |____| .__|_| |_|_| |_\\__, | / / / /"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0x",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw04",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/iso3166.tab' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1A",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.761251Z 4 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1I",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.802030Z 0 [Note] Event Scheduler: Purging the queue. 0 events"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1Q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805906Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1R",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805913Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1S",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805929Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1W",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805956Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1Z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805976Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1c",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805995Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1g",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806022Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1j",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806041Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw29",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.880  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}\" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw2-",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.881  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw2_",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:49.041  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw3C",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:50.719  INFO 1 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw3E",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:50.887  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Started Ejemplobbdd1Application in 34.017 seconds (JVM running for 38.059)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvcw15zmn9vGluy",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:27.471  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu5",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:30.062  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpF",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  '  |____| .__|_| |_|_| |_\\__, | / / / /"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpH",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " :: Spring Boot ::        (v1.2.1.RELEASE)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpI",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpJ",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:09:52.755  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Starting Ejemplobbdd1Application v0.0.1-SNAPSHOT on 6818c00be076 with PID 1 (/app.jar started by root in /)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2s",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:39.513  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2v",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\tname: default"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:42.194  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGluj",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:17.372  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13829 ms"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGluk",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:20.653  INFO 1 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluX",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD7w15zmn9vGluZ",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:03.554  INFO 1 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7130d331: startup date [Wed Jun 08 18:46:03 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGlun",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:22.666  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxV-KIw15zmn9vGlu_",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:48:07.435  INFO 1 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpQ",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:06.227  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpS",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:07.276  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8m7eIB4fdYbTpV",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:11.527  INFO 1 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8m7eIB4fdYbTpW",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:11.562  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpo",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.264  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}\" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTps",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.831  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0N",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.128897Z 0 [Note] mysqld (mysqld 5.7.12) starting as process 50 ..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0P",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143804Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV47zehVmGQaw0U",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.144784Z 0 [Note] InnoDB: Number of pools: 1"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0X",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.306259Z 0 [Note] InnoDB: Completed initialization of buffer pool"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV67zehVmGQaw0d",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.502946Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0j",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.583651Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV87zehVmGQaw0m",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.594240Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV_7zehVmGQaw0o",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.603919Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw03",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/Factory' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw05",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/leap-seconds.list' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw06",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/posix/Factory' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw09",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/zone.tab' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw0-",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.760764Z 4 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1C",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1E",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1H",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.802013Z 0 [Note] Forcefully disconnecting 0 remaining clients"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1M",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805865Z 0 [Note] Shutting down plugin 'partition'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1N",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805873Z 0 [Note] Shutting down plugin 'ARCHIVE'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1e",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806009Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1n",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806067Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1u",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806254Z 0 [Note] InnoDB: FTS optimize thread exiting."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652136Z 0 [Note] InnoDB: Removed temporary tablespace data file: \"ibtmp1\""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw10",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652187Z 0 [Note] Shutting down plugin 'MyISAM'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw14",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652317Z 0 [Note] Shutting down plugin 'sha256_password'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw15",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652326Z 0 [Note] Shutting down plugin 'mysql_native_password'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw16",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.653158Z 0 [Note] Shutting down plugin 'binlog'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqG7zehVmGQaw18",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqG7zehVmGQaw1-",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "MySQL init process done. Ready for start up."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2B",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356225Z 0 [Note] InnoDB: PUNCH HOLE support available"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2C",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356305Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2D",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356320Z 0 [Note] InnoDB: Uses event mutexes"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2J",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.385319Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2M",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.449534Z 0 [Note] InnoDB: Highest supported file format is Barracuda."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2c",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.635431Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160601 18:05:30"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2e",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.656115Z 0 [Note] Event Scheduler: Loaded 0 events"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpN",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:03.564  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpR",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:07.272  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpT",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:07.636  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpU",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:07.637  INFO 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 14674 ms"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTMw15zmn9vGluc",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:13.112  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlue",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:13.201  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGluh",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:16.780  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvcw15zmn9vGlux",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:27.378  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu3",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.896  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}\" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGluo",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:22.726  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo ["
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhTw15zmn9vGluu",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:24.394  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhTw15zmn9vGluv",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:25.709  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw25",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.559  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7130d331: startup date [Wed Jun 01 18:05:19 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVm9hw15zmn9vGlu-",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:31.620  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Started Ejemplobbdd1Application in 30.325 seconds (JVM running for 34.353)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJJEo7zehVmGQaw21",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:44.700  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klft7eIB4fdYbTpB",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  .   ____          _            __ _ _"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpE",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluQ",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  .   ____          _            __ _ _"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluT",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKx7eIB4fdYbTpe",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:14.941  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKx7eIB4fdYbTpg",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:17.825  INFO 1 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV27zehVmGQaw0H",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:14.765507Z 1 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0S",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143886Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.8"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0a",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.370456Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0f",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.510453Z 0 [Note] InnoDB: Waiting for purge to start"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0l",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.594178Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWB7zehVmGQaw0q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  .   ____          _            __ _ _"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0t",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " \\\\/  ___)| |_)| | | | | || (_| |  ) ) ) )"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWD7zehVmGQaw00",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Version: '5.7.12'  socket: '/var/run/mysqld/mysqld.sock'  port: 0  MySQL Community Server (GPL)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw07",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:26.109  INFO 1 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw08",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Warning: Unable to load '/usr/share/zoneinfo/right/Factory' as time zone. Skipping it."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1B",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "mysql: [Warning] Using a password on the command line interface can be insecure."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1D",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "/usr/local/bin/docker-entrypoint.sh: ignoring /docker-entrypoint-initdb.d/*"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1U",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805943Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1b",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805988Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1o",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806073Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1v",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806557Z 0 [Note] InnoDB: Starting shutdown..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw12",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.652234Z 0 [Note] Shutting down plugin 'CSV'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqG7zehVmGQaw2A",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.341366Z 0 [Note] mysqld (mysqld 5.7.12) starting as process 1 ..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2N",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.486052Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2O",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.486234Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2Q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.580662Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2S",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.587877Z 0 [Note] InnoDB: 5.7.12 started; log sequence number 12127644"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2b",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.619890Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2d",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.635454Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2i",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:31.615  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionAttributeSource' of type [class org.springframework.transaction.annotation.AnnotationTransactionAttributeSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2k",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:31.702  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTMw15zmn9vGlua",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:08.418  INFO 1 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlud",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:13.166  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlug",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:16.772  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlul",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:20.678  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu1",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.888  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> es.sidelab.AnuncioController.addAnuncio(es.sidelab.model.Anuncio)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu2",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.889  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncio/{asunto}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public es.sidelab.model.Anuncio es.sidelab.AnuncioController.getAnuncio(java.lang.String)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvew15zmn9vGlu6",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:30.063  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2r",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:39.511  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2t",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:41.658  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2u",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:41.720  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo ["
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw26",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.869  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public java.util.List<es.sidelab.model.Anuncio> es.sidelab.AnuncioController.getAnuncios()"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJJEo7zehVmGQaw20",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:43.389  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJJEo7zehVmGQaw23",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:46.385  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxV-KIw15zmn9vGlvB",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:48:07.590  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 154 ms"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGlup",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\tname: default"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGlus",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:23.231  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVm9hw15zmn9vGlu9",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:31.614  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluU",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "  '  |____| .__|_| |_|_| |_\\__, | / / / /"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klft7eIB4fdYbTpC",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8n7eIB4fdYbTpY",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:13.962  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKx7eIB4fdYbTpc",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:14.892  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY37eIB4fdYbTpi",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:20.066  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000227: Running hbm2ddl schema export"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpm",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.254  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncio/{asunto}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public es.sidelab.model.Anuncio es.sidelab.AnuncioController.getAnuncio(java.lang.String)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kqm97eIB4fdYbTpt",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:25.777  INFO 1 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kqm97eIB4fdYbTpu",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:26.002  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kqm97eIB4fdYbTpv",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:26.012  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Started Ejemplobbdd1Application in 35.398 seconds (JVM running for 40.384)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV27zehVmGQaw0I",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:14.765557Z 1 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0R",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143862Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0T",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143909Z 0 [Note] InnoDB: Using Linux native AIO"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0Y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.314156Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority()."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0b",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.371432Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0c",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.499783Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0i",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.572474Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0s",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0v",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " =========|_|==============|___/=/_/_/_/"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.662037Z 0 [Note] Event Scheduler: Loaded 0 events"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.663664Z 0 [Note] mysqld: ready for connections."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWD7zehVmGQaw01",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:19.322  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Starting Ejemplobbdd1Application v0.0.1-SNAPSHOT on 6818c00be076 with PID 1 (/app.jar started by root in /)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1F",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.801936Z 0 [Note] Giving 0 client threads a chance to die gracefully"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1G",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.801999Z 0 [Note] Shutting down slave threads"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1J",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.802153Z 0 [Note] Binlog end"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1X",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805963Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1a",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805982Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1d",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806002Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1p",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806080Z 0 [Note] Shutting down plugin 'INNODB_CMP'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1s",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806100Z 0 [Note] Shutting down plugin 'INNODB_TRX'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1t",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806106Z 0 [Note] Shutting down plugin 'InnoDB'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqG7zehVmGQaw1_",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : ""
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2F",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356357Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.8"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2L",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.432292Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority()."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2U",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.592212Z 0 [Note] Plugin 'FEDERATED' is disabled."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2V",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.605421Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kluc7eIB4fdYbTpL",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:09:58.598  INFO 1 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kluc7eIB4fdYbTpM",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:03.443  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c57da8e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpP",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:03.658  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.config.internalTransactionAdvisor' of type [class org.springframework.transaction.interceptor.BeanFactoryTransactionAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvcw15zmn9vGluw",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:26.191  INFO 1 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGluz",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.581  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7130d331: startup date [Wed Jun 08 18:46:03 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu0",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.887  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public java.util.List<es.sidelab.model.Anuncio> es.sidelab.AnuncioController.getAnuncios()"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvdw15zmn9vGlu4",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:29.897  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTMw15zmn9vGlub",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:12.998  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bfc9a047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGluf",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:15.570  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlum",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:20.680  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw27",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.871  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> es.sidelab.AnuncioController.addAnuncio(es.sidelab.model.Anuncio)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpK",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:09:52.975  INFO 1 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@629bee3a: startup date [Thu Jun 09 19:09:52 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2i7zehVmGQaw2q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:39.484  INFO 1 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2w",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\t...]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVm9hw15zmn9vGlu8",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:31.448  INFO 1 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2X",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.605541Z 0 [Note] IPv6 is available."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGluq",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\t...]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8n7eIB4fdYbTpZ",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:14.093  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo ["
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8n7eIB4fdYbTpb",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\t...]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKx7eIB4fdYbTpd",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:14.930  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKy7eIB4fdYbTph",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:18.423  INFO 1 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY37eIB4fdYbTpj",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:20.248  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpn",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.255  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public java.util.List<es.sidelab.model.Anuncio> es.sidelab.AnuncioController.getAnuncios()"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpp",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.265  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0L",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Database initialized"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0M",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "MySQL init process in progress..."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV37zehVmGQaw0O",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.143735Z 0 [Note] InnoDB: PUNCH HOLE support available"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV47zehVmGQaw0V",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.145202Z 0 [Note] InnoDB: Not using CPU crc32 instructions"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV47zehVmGQaw0W",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.183422Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV57zehVmGQaw0Z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.334759Z 0 [Note] InnoDB: Highest supported file format is Barracuda."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0e",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.502985Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0g",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.560781Z 0 [Note] InnoDB: 5.7.12 started; log sequence number 2522067"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0h",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.563914Z 0 [Note] Plugin 'FEDERATED' is disabled."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV77zehVmGQaw0k",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.594102Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGV_7zehVmGQaw0p",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:18.607983Z 0 [Note] InnoDB: Buffer pool(s) load completed at 160601 18:05:18"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWC7zehVmGQaw0w",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " :: Spring Boot ::        (v1.2.1.RELEASE)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGWD7zehVmGQaw02",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:19.556  INFO 1 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7130d331: startup date [Wed Jun 01 18:05:19 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp77zehVmGQaw0_",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.761012Z 4 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1K",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805813Z 0 [Note] Shutting down plugin 'ngram'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1L",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805853Z 0 [Note] Shutting down plugin 'BLACKHOLE'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1O",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805880Z 0 [Note] Shutting down plugin 'MEMORY'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp87zehVmGQaw1P",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805889Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1T",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805936Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1V",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805950Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1Y",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.805969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1f",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806015Z 0 [Note] Shutting down plugin 'INNODB_METRICS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1h",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806028Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp97zehVmGQaw1i",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806035Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1l",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806054Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1q",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.806086Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1w",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.907436Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp-7zehVmGQaw1x",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:27.914055Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 160601 18:05:27"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGp_7zehVmGQaw17",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:29.655979Z 0 [Note] mysqld: Shutdown complete"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2G",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.356369Z 0 [Note] InnoDB: Using Linux native AIO"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2I",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.357979Z 0 [Note] InnoDB: Not using CPU crc32 instructions"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2K",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.425239Z 0 [Note] InnoDB: Completed initialization of buffer pool"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqH7zehVmGQaw2R",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.580706Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2T",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.589479Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2a",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "2016-06-01T18:05:30.614832Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode."
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqI7zehVmGQaw2g",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/db",
+        "log" : "Version: '5.7.12'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqJ7zehVmGQaw2l",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:33.833  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqJ7zehVmGQaw2m",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:34.866  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJGqJ7zehVmGQaw2n",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:34.870  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.15"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw28",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:48.872  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncio/{asunto}],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public es.sidelab.model.Anuncio es.sidelab.AnuncioController.getAnuncio(java.lang.String)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw3A",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:49.042  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw3B",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:49.272  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJKSz7zehVmGQaw3D",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:50.881  INFO 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpD",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klfy7eIB4fdYbTpG",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " =========|_|==============|___/=/_/_/_/"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2klud7eIB4fdYbTpO",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:03.622  INFO 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'transactionInterceptor' of type [class org.springframework.transaction.interceptor.TransactionInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluR",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " /\\\\ / ___'_ __ _ _(_)_ __  __ _ \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluS",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "( ( )\\___ | '_ | '_| | '_ \\/ _` | \\ \\ \\ \\"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluV",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " =========|_|==============|___/=/_/_/_/"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD6w15zmn9vGluW",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : " :: Spring Boot ::        (v1.2.1.RELEASE)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjD7w15zmn9vGluY",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:03.350  INFO 1 --- [           main] es.sidelab.Ejemplobbdd1Application       : Starting Ejemplobbdd1Application v0.0.1-SNAPSHOT on 6818c00be076 with PID 1 (/app.jar started by root in /)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2x",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:42.183  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJH2j7zehVmGQaw2z",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:42.201  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJJEo7zehVmGQaw22",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:45.197  INFO 1 --- [           main] o.h.h.i.ast.ASTQueryTranslatorFactory    : HHH000397: Using ASTQueryTranslatorFactory"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUNJJEo7zehVmGQaw24",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-01 18:05:46.463  INFO 1 --- [           main] org.hibernate.tool.hbm2ddl.SchemaExport  : HHH000230: Schema export complete"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhSw15zmn9vGlur",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:23.220  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {4.3.7.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVkhTw15zmn9vGlut",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:23.238  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000021: Bytecode provider name : javassist"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVlvew15zmn9vGlu7",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:30.293  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxVjTNw15zmn9vGlui",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:46:17.371  INFO 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVUxV-KIw15zmn9vGlvA",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-08 18:48:07.436  INFO 1 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8n7eIB4fdYbTpX",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:11.568  INFO 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2km8n7eIB4fdYbTpa",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "\tname: default"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2koKx7eIB4fdYbTpf",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:16.340  INFO 1 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {4.0.5.Final}"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY37eIB4fdYbTpk",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:22.760  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@629bee3a: startup date [Thu Jun 09 19:09:52 UTC 2016]; root of context hierarchy"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY37eIB4fdYbTpl",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.245  INFO 1 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped \"{[/anuncios],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}\" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> es.sidelab.AnuncioController.addAnuncio(es.sidelab.model.Anuncio)"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpq",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.511  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    }, {
+      "_index" : "fluentd",
+      "_type" : "fluentd",
+      "_id" : "AVU2kpY47eIB4fdYbTpr",
+      "_score" : 1.0,
+      "_source" : {
+        "container_name" : "/app",
+        "log" : "2016-06-09 19:10:23.512  INFO 1 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]"
+      }
+    } ]
+  }
+}
