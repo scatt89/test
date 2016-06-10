@@ -25,10 +25,11 @@ var parseLogs = function(hits){
     var new_hits = [];
     var spring_log_regex = /^((\d{1,4}\-\d{1,2}\-\d{1,2})\s+(\d{1,2}\:\d{1,2}\:\d{1,2}\.\d{1,4})\s+(ERROR|WARN|INFO|DEBUG|TRACE|FATAL)\s+(\d+)\s+(---)\s+(\[[\w\-]*\])\s+([\w\.\[\]\/\\]*)\s+\:\s+(.*))/;
 
+    //RESULTA QUE LA VARIABLE HIT DEL FOR NO ES UN OBJETO DEL ARRAY, ES EL INDICE
+    //USAR UN FOR MAS INTUITIVO
     for(var hit in hits){
-        //$log.debug(hit);
-        alert("Antes de if");
-        if(hit['_source']['log']){
+        alert("Antes de if"+hits[hit]._source.log);//POR ESTO AQUI SACA EL OBJETO
+        if(hit['_source']['log']){//Y AQUI NO!!!!!!!
             alert("Despues de if");
             if(spring_log_regex.exec(hit._source.log)){
                 var new_source = [];
