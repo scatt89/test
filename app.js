@@ -4,6 +4,8 @@
 
 var app = angular.module("app",[]);
 
+
+
 app.controller("QueryController", ["$log", "$http", function($log, $http){
     var vm = this;
     vm.hits = [];
@@ -23,24 +25,48 @@ app.controller("QueryController", ["$log", "$http", function($log, $http){
 var parseLogs = function(hits){
 
     var new_hits = [];
-    var spring_log_regex = /^((\d{1,4}\-\d{1,2}\-\d{1,2})\s+(\d{1,2}\:\d{1,2}\:\d{1,2}\.\d{1,4})\s+(ERROR|WARN|INFO|DEBUG|TRACE|FATAL)\s+(\d+)\s+(---)\s+(\[[\w\-]*\])\s+([\w\.\[\]\/\\]*)\s+\:\s+(.*))/;
+    var spring_log_regex = /^(\d{1,4}\-\d{1,2}\-\d{1,2}\s+\d{1,2}\:\d{1,2}\:\d{1,2}\.\d{1,4})\s+(ERROR|WARN|INFO|DEBUG|TRACE|FATAL)\s+(\d+)\s+---\s+(\[[\s\w\-]*\])\s+([\w\.\[\]\/\\]*)\s+\:\s+(.*)/;
+    var db_regex = /^(\d{1,4}-\d{1,2}\-\d{1,2}T\d{1,2}\:\d{1,2}\:\d{1,2}\.\d{1,8}Z)\s(\d+)\s(\[\w*\])\s(.*)/;
+    
+    for(var index in hits){
 
-    //RESULTA QUE LA VARIABLE HIT DEL FOR NO ES UN OBJETO DEL ARRAY, ES EL INDICE
-    //USAR UN FOR MAS INTUITIVO
-    for(var hit in hits){
-        alert("Antes de if"+hits[hit]._source.log);//POR ESTO AQUI SACA EL OBJETO
-        if(hit['_source']['log']){//Y AQUI NO!!!!!!!
-            alert("Despues de if");
-            if(spring_log_regex.exec(hit._source.log)){
-                var new_source = [];
-                new_source.time=hit._source.log.match(/^((\d{1,4}\-\d{1,2}\-\d{1,2})\s+(\d{1,2}\:\d{1,2}\:\d{1,2}\.\d{1,4}))/); //match timestamp
-                new_source.container_name=hit._source.container_name; //take the container name
-                new_source.log_level=hit._source.log.match(/(ERROR|WARN|INFO|DEBUG|TRACE|FATAL)/); //match the log level
-                new_source.process_id=hit._source.log.match(/\s+(\d+)\s+/); //match the process id
-                new_source.thread_name=hit._source.log.match(/\s+(\[[\w\-]*\])\s+/);
-                new_source.class=hit._source.log.match(/\s+([\w\.\[\]\/\\]*)\s+\:/);
-                new_source.message=hit._source.log.match(/\:\s+(.*)$/);
-                new_hits.push(new_source);
+        var current_log = hits[index]._source.log;
+
+        if(hits[index]['_source']['container_name'] === "/db"){
+            
+            var new_db_source = {};
+            
+            var match = db_regex.exec(current_log);
+
+            if(match !== null){
+                new_db_source['timestamp'] =  match[1];
+                new_db_source['container_name'] =  "db";
+                new_db_source['log_level']="";
+                new_db_source['process_id'] =  match[2];
+                new_db_source['thread_name']="";
+                new_db_source['class'] =  match[3];
+                new_db_source['message'] =  match[4];
+
+                new_hits.push(new_db_source);
+            }
+        }
+
+        if(hits[index]['_source']['container_name'] === "/app"){
+
+            var new_app_source = {};
+            
+            var match = spring_log_regex.exec(current_log);
+
+            if(match !== null){
+                new_app_source['@timestamp'] =  match[1];
+                new_app_source['container_name'] =  "app";
+                new_app_source['log_level']= match[2];
+                new_app_source['process_id'] =  match[3];
+                new_app_source['thread_name']=match[4];
+                new_app_source['class'] =  match[5];
+                new_app_source['message'] =  match[6];
+
+                new_hits.push(new_app_source);
             }
         }
     }
